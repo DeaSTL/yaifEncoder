@@ -1,0 +1,12 @@
+C:\Users\DeaSTL\source\repos\YaifEncoder\YaifEncoder\bin\Release\YaifEncoder.exe
+C:\Users\DeaSTL\source\repos\YaifEncoder\YaifEncoder\bin\Release\YaifEncoder.pdb
+C:\Users\DeaSTL\source\repos\YaifEncoder\YaifEncoder\bin\Release\AForge.dll
+C:\Users\DeaSTL\source\repos\YaifEncoder\YaifEncoder\bin\Release\AForge.Imaging.dll
+C:\Users\DeaSTL\source\repos\YaifEncoder\YaifEncoder\bin\Release\AForge.Math.dll
+C:\Users\DeaSTL\source\repos\YaifEncoder\YaifEncoder\bin\Release\AForge.xml
+C:\Users\DeaSTL\source\repos\YaifEncoder\YaifEncoder\bin\Release\AForge.Imaging.xml
+C:\Users\DeaSTL\source\repos\YaifEncoder\YaifEncoder\bin\Release\AForge.Math.xml
+C:\Users\DeaSTL\source\repos\YaifEncoder\YaifEncoder\obj\Release\YaifEncoder.csproj.CoreCompileInputs.cache
+C:\Users\DeaSTL\source\repos\YaifEncoder\YaifEncoder\obj\Release\YaifEncoder.exe
+C:\Users\DeaSTL\source\repos\YaifEncoder\YaifEncoder\obj\Release\YaifEncoder.pdb
+C:\Users\DeaSTL\source\repos\YaifEncoder\YaifEncoder\obj\Release\YaifEncoder.csprojResolveAssemblyReference.cache
