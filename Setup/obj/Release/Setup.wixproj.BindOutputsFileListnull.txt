@@ -1,0 +1,2 @@
+C:\Users\DeaSTL\Source\Repos\yaifEncoder2\Setup\bin\Release\Setup.msi
+C:\Users\DeaSTL\Source\Repos\yaifEncoder2\Setup\bin\Release\Setup.wixpdb

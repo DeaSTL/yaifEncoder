@@ -1,0 +1,6 @@
+C:\Users\DeaSTL\Source\Repos\yaifEncoder2\Setup\bin\Release\Setup.msi
+C:\Users\DeaSTL\Source\Repos\yaifEncoder2\Setup\bin\Release\Setup.wixpdb
+obj\Release\Product.wixobj
+obj\Release\Setup.wixproj.BindContentsFileListnull.txt
+obj\Release\Setup.wixproj.BindOutputsFileListnull.txt
+obj\Release\Setup.wixproj.BindBuiltOutputsFileListnull.txt

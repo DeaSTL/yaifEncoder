@@ -1,0 +1,6 @@
+C:\Users\DeaSTL\Source\Repos\yaifEncoder2\YaifEncoder\bin\x86\Release\AForge.dll
+C:\Users\DeaSTL\Source\Repos\yaifEncoder2\YaifEncoder\bin\x86\Release\AForge.Imaging.dll
+C:\Users\DeaSTL\Source\Repos\yaifEncoder2\YaifEncoder\bin\x86\Release\AForge.Math.dll
+C:\Users\DeaSTL\Source\Repos\yaifEncoder2\YaifEncoder\ToYaif.ico
+C:\Users\DeaSTL\Source\Repos\yaifEncoder2\YaifEncoder\bin\x86\Release\YaifEncoder.exe
+C:\Users\DeaSTL\Source\Repos\yaifEncoder2\YaifEncoder\bin\x86\Release\YaifEncoder.pdb

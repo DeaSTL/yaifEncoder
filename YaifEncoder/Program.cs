@@ -62,7 +62,7 @@ namespace YaifEncoder
             Color[] colorTable = ciq.CalculatePalette(bmp, 16);
             Dictionary<String, int> colorMap = new Dictionary<String, int>();
             for (int i = 0; i < colorTable.Length; i++) {
-                int tmp = 0;
+           
                 try
                 {
                     colorMap.Add(colorTable[i].ToString(), i);
@@ -93,12 +93,11 @@ namespace YaifEncoder
                 }
             }
 
-
+            
             add16BitInt(bmp.Width);
             add16BitInt(bmp.Height);
             add8BitInt(colorTable.Length * 3);
             add32BitInt(flatImage.Length/2);
-            
             output.AddRange(Encoding.UTF8.GetBytes("PORN"));
 
             for (int i = 0; i < colorTable.Length; i++)
@@ -115,7 +114,7 @@ namespace YaifEncoder
             }
 
             byte[] outputArray = output.ToArray();
-            File.WriteAllBytes(args[0].Split(',')[0]+".yaif", outputArray);
+            File.WriteAllBytes(args[0].Split('.')[0]+".yaif", outputArray);
             
         }
     }
