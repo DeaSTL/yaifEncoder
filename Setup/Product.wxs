@@ -21,18 +21,6 @@
 			<Directory Id="DIR_MyProgram"
 						  Name="YaifEncoder" />
 		</Directory>
-   <Directory Id="DesktopFolder" SourceName="Desktop" />
-    <Directory Id="MergeRedirectFolder">
-      <Component Id="MyExeComponent" Guid="*">
-        <File Id="MyExeFile" Source="$(var.ExeSourcePath)" KeyPath="yes">
-          <Shortcut
-            Id="DesktopShortcut"
-            Directory="DesktopFolder"
-            Name="$(var.ShortcutName)"
-            WorkingDirectory="MergeRedirectFolder" />
-        </File>
-      </Component>
-    </Directory>
 
 	</Directory>
 
@@ -70,7 +58,7 @@
     <ComponentRef Id="AForge.Imaging.dll"/>
     <ComponentRef Id="AForge.Math.dll"/>
     <ComponentRef Id="YaifEncoder.pdb"/>
-    <ComponentRef Id="CMP_FileAccociation"/>
+
     
 	</Feature>
 
