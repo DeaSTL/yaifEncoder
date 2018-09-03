@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
   <?define YaifEncoder_TargetDir=$(var.YaifEncoder.TargetDir)?>
-  <Product Id="{7FE29CD6-E478-4BAD-9FB5-FAFFC0208EFF}" Name="YaifEncoder" Language="1033" Version="0.0.1.2" Manufacturer="DeaSTLSolutions" UpgradeCode="6c93cd94-2d72-4c89-8ac2-9e9f80b59343">
+  <Product Id="{7FE29CD6-E478-4BAD-9FB5-FAFFC0208EFF}" Name="YaifEncoder" Language="1033" Version="0.0.1.3" Manufacturer="DeaSTLSolutions" UpgradeCode="6c93cd94-2d72-4c89-8ac2-9e9f80b59343">
     <Package 
       Compressed="yes"
       InstallerVersion="200"  
@@ -26,24 +26,24 @@
 
 
 
-  <DirectoryRef Id="DIR_MyProgram">
+  <DirectoryRef Id="DIR_MyProgram" FileSource="..\YaifEncoder\bin\x64\Release">
     <Component Id="ToYaif.ico" Guid="e555ebea-4882-425f-8858-f68ffd5c124f">
         <File Id="ToYaif.ico" Name="ToYaif.ico" Source="$(var.YaifEncoder.ProjectDir)ToYaif.ico" />
       </Component>
       <Component Id="YaifEncoder.exe" Guid="61b8e92c-9e9c-49cd-a170-7e9eb6aa57b4">
-        <File Id="YaifEncoder.exe" Name="YaifEncoder.exe" Source="$(var.YaifEncoder_TargetDir)YaifEncoder.exe" />
+        <File Id="YaifEncoder.exe" Name="YaifEncoder.exe"/>
       </Component>
       <Component Id="AForge.dll" Guid="ac1502c8-ddfd-4713-abd2-bfd83b75b748">
-        <File Id="AForge.dll" Name="AForge.dll" Source="$(var.YaifEncoder_TargetDir)AForge.dll" />
+        <File Id="AForge.dll" Name="AForge.dll" />
       </Component>
       <Component Id="AForge.Imaging.dll" Guid="4bf386e2-e351-4d17-829d-ae0bffed8d18">
-        <File Id="AForge.Imaging.dll" Name="AForge.Imaging.dll" Source="$(var.YaifEncoder_TargetDir)AForge.Imaging.dll" />
+        <File Id="AForge.Imaging.dll" Name="AForge.Imaging.dll" />
       </Component>
       <Component Id="AForge.Math.dll" Guid="1b7ae129-aae3-424c-87b6-3dc68450d152">
-        <File Id="AForge.Math.dll" Name="AForge.Math.dll" Source="$(var.YaifEncoder_TargetDir)AForge.Math.dll" />
+        <File Id="AForge.Math.dll" Name="AForge.Math.dll" />
       </Component>
       <Component Id="YaifEncoder.pdb" Guid="bbd5413b-fb83-4d8c-a721-78c36ecf95bb">
-        <File Id="YaifEncoder.pdb" Name="YaifEncoder.pdb" Source="$(var.YaifEncoder_TargetDir)YaifEncoder.pdb" />
+        <File Id="YaifEncoder.pdb" Name="YaifEncoder.pdb" />
       </Component>
 
   </DirectoryRef>

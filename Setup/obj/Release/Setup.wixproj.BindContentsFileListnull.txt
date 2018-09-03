@@ -1,6 +1,6 @@
-C:\Users\DeaSTL\Source\Repos\yaifEncoder2\YaifEncoder\bin\x86\Release\AForge.dll
-C:\Users\DeaSTL\Source\Repos\yaifEncoder2\YaifEncoder\bin\x86\Release\AForge.Imaging.dll
-C:\Users\DeaSTL\Source\Repos\yaifEncoder2\YaifEncoder\bin\x86\Release\AForge.Math.dll
+..\YaifEncoder\bin\x64\Release\AForge.dll
+..\YaifEncoder\bin\x64\Release\AForge.Imaging.dll
+..\YaifEncoder\bin\x64\Release\AForge.Math.dll
 C:\Users\DeaSTL\Source\Repos\yaifEncoder2\YaifEncoder\ToYaif.ico
-C:\Users\DeaSTL\Source\Repos\yaifEncoder2\YaifEncoder\bin\x86\Release\YaifEncoder.exe
-C:\Users\DeaSTL\Source\Repos\yaifEncoder2\YaifEncoder\bin\x86\Release\YaifEncoder.pdb
+..\YaifEncoder\bin\x64\Release\YaifEncoder.exe
+..\YaifEncoder\bin\x64\Release\YaifEncoder.pdb

@@ -15,13 +15,13 @@ namespace YaifEncoder
         
         static List<byte> output = new List<byte>();
         static String filename = "";
-        static void add16BitInt(int a) {
+        static void Add16BitInt(int a) {
             output.Add((byte)(a & 0xFF));
             output.Add((byte)((a >> 8) & 0xFF));
 
 
         }
-        static void add32BitInt(int a) {
+        static void Add32BitInt(int a) {
 
             output.Add((byte)(a & 0xFF));
             output.Add((byte)((a >> 8) & 0xFF));
@@ -31,16 +31,15 @@ namespace YaifEncoder
 
 
         }
-        static void add8BitInt(int a) {
+        static void Add8BitInt(int a) {
             output.Add((byte)((short)a));
 
         }
-        static void addNibbles(int a, int b) {
+        static void AddNibbles(int a, int b) {
             output.Add((byte)(b + (a << 4)));
 
         }
-        static void createIndexList() {
-        }
+
         static void Main(string[] args)
         {
 
@@ -92,25 +91,25 @@ namespace YaifEncoder
                     flatImage[x + RImage.Width * y] = colorMap[RImage.GetPixel(x, y).ToString()];
                 }
             }
-
-            
-            add16BitInt(bmp.Width);
-            add16BitInt(bmp.Height);
-            add8BitInt(colorTable.Length * 3);
-            add32BitInt(flatImage.Length/2);
-            output.AddRange(Encoding.UTF8.GetBytes("PORN"));
+            output.AddRange(Encoding.UTF8.GetBytes("YAIF"));
+            Add16BitInt(2);
+            Add16BitInt(bmp.Width);
+            Add16BitInt(bmp.Height);
+            Add8BitInt(colorTable.Length * 3);
+            Add32BitInt(flatImage.Length/2);
+            output.AddRange(Encoding.UTF8.GetBytes("FUCK"));
 
             for (int i = 0; i < colorTable.Length; i++)
             {
-                add8BitInt(colorTable[i].R);
-                add8BitInt(colorTable[i].G);
-                add8BitInt(colorTable[i].B);
+                Add8BitInt(colorTable[i].R);
+                Add8BitInt(colorTable[i].G);
+                Add8BitInt(colorTable[i].B);
             }
 
             for (int i = 0; i < flatImage.Length; i += 2)
             {
 
-                addNibbles(flatImage[i], flatImage[i + 1]);
+                AddNibbles(flatImage[i], flatImage[i + 1]);
             }
 
             byte[] outputArray = output.ToArray();
